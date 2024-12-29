@@ -13,3 +13,6 @@
 .idea/
 .vscode/
 vendor/
+
+# Executable
+protoc-gen-gotag
