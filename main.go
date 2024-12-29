@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	opt := uint64(pluginpb.CodeGeneratorResponse_FEATURE_PROTO3_OPTIONAL)
+	opt := uint64(pluginpb.CodeGeneratorResponse_FEATURE_PROTO3_OPTIONAL | pluginpb.CodeGeneratorResponse_FEATURE_SUPPORTS_EDITIONS)
 
 	pgs.Init(
 		pgs.DebugEnv("GOTAG_DEBUG"),
